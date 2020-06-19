@@ -13,23 +13,13 @@
     
     
     <item>
-      <title>dsada</title>
-      <link>/blog/dsada/</link>
+      <title>The First Post</title>
+      <link>/blog/firstpost/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/dsada/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/blog/testing/</link>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/testing/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>/blog/firstpost/</guid>
+      <description>The first post of the blog. I created this website with the intention of using it as a portfolio to link to various projects. But I got sucked into the deep rabbit hole of web designing and blogging that I decided to sacrifice one day to plow through numerous guides and documentation to create this spiffy site which can also blog.
+Below are the key resources that I have consulted.</description>
     </item>
     
     <item>
@@ -38,7 +28,8 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>About Me Nothing here yet, work in progress&amp;hellip;</description>
+      <description>About Me I have a general interest in using data and statistical methods to derive insights that can be acted upon and applied to the real-world. Domains which I feel invested in are Psychology, Psychometrics and Data Science/Analytics.
+Education I studied Psychology at the National University of Singapore (NUS) under the Concurrent Degree Program. My thesis focused on the performance of different missing data techniques in joint ordinal-continuous measurement models.</description>
     </item>
     
     <item>
@@ -48,7 +39,7 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       
       <guid>/projects/</guid>
       <description>My Personal Projects  In my spare time.
-    Projects Details Programs     Power Simulator For Between-Subject ANOVAs Implementing a simulation approach to calculating power for Between-Subject ANOVAs with a user-friendly GUI. R, RShiny   The Most And Least Popular Psychology Modules In NUS Using the decade&amp;rsquo;s past bidding statistics to determine the popularity of Psychology modules in NUS. R    </description>
+    Projects Details Programs URL     Power Simulator For Between-Subject ANOVAs Implementing a simulation approach to calculating power for Between-Subject ANOVAs with a user-friendly GUI. R, RShiny https://aaron0696.github.io/BtwnANOVAPowSim/   &amp;ndash; &amp;ndash; &amp;ndash; &amp;ndash;   The Most And Least Popular Psychology Modules In NUS Using the decade&amp;rsquo;s past bidding statistics to determine the popularity of Psychology modules in NUS.</description>
     </item>
     
   </channel>

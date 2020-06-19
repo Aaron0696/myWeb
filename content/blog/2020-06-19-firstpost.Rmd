@@ -1,0 +1,19 @@
+---
+title: The First Post
+author: Aaron Lim Jin Ming
+date: '2020-06-19'
+slug: firstpost
+categories: []
+tags:
+  - blog-admin
+description: 'The first post of my website!'
+keywords: [first,data,psychology]
+stylesheet: post.css
+---
+
+The first post of the blog. I created this website with the intention of using it as a portfolio to link to various projects. But I got sucked into the deep rabbit hole of web designing and blogging that I decided to sacrifice one day to plow through numerous guides and documentation to create this spiffy site which can also blog.
+
+Below are the key resources that I have consulted.
+
+* For the theme of this website: https://github.com/jakewies/hugo-theme-codex
+* Learning about `blogdown`: https://bookdown.org/yihui/blogdown/
