@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Program on </title>
+    <link>/tags/program/</link>
+    <description>Recent content in Program on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Sat, 20 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/program/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Should I Apply For The NUS Psychology Concurrent Degree Program?</title>
+      <link>/blog/should-i-apply-for-the-nus-psychology-concurrent-degree-program/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/should-i-apply-for-the-nus-psychology-concurrent-degree-program/</guid>
+      <description>Every year, the department of Psychology sends out little postcards to the second-year undergraduates inviting them to apply for the Concurrent Degree Program (CDP). More often than not, these postcards are met with confusion over what this program actually is. The department website gives a good introduction to what the program offers. This review aims to complement the website, providing a more student-centric explanation/reflection about the program and the frequently asked questions (from juniors) that are not found on the website.</description>
+    </item>
+    
+  </channel>
+</rss>
