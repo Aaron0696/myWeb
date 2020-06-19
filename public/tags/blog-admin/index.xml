@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog-admin on </title>
-    <link>/tags/blog-admin/</link>
+    <link>https://aaron0696.github.io/tags/blog-admin/</link>
     <description>Recent content in blog-admin on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
     <lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/blog-admin/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://aaron0696.github.io/tags/blog-admin/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The First Post</title>
-      <link>/blog/firstpost/</link>
+      <link>https://aaron0696.github.io/blog/firstpost/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/firstpost/</guid>
+      <guid>https://aaron0696.github.io/blog/firstpost/</guid>
       <description>The first post of the blog. I created this website with the intention of using it as a portfolio to link to various projects. But I got sucked into the deep rabbit hole of web designing and blogging that I decided to sacrifice one day to plow through numerous guides and documentation to create this spiffy site which can also blog.
 Below are the key resources that I have consulted.</description>
     </item>
