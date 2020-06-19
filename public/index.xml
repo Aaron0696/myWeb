@@ -39,7 +39,12 @@ Education I studied Psychology at the National University of Singapore (NUS) und
       
       <guid>https://aaron0696.github.io/projects/</guid>
       <description>My Personal Projects  In my spare time.
-    Projects Details Programs URL     Power Simulator For Between-Subject ANOVAs Implementing a simulation approach to calculating power for Between-Subject ANOVAs with a user-friendly GUI. R, RShiny https://aaron0696.github.io/BtwnANOVAPowSim/   &amp;ndash; &amp;ndash; &amp;ndash; &amp;ndash;   The Most And Least Popular Psychology Modules In NUS Using the decade&amp;rsquo;s past bidding statistics to determine the popularity of Psychology modules in NUS.</description>
+ The Most And Least Popular Psychology Modules In NUS Using the decade&amp;rsquo;s past bidding statistics to determine the popularity of Psychology modules in NUS.
+https://aaron0696.github.io/psychmods/
+Programs: R
+Power Simulator For Between-Subject ANOVAs Implementing a simulation approach to calculating power for Between-Subject ANOVAs with a user-friendly GUI.
+https://aaron0696.github.io/BtwnANOVAPowSim/
+Programs: R, RShiny</description>
     </item>
     
   </channel>
