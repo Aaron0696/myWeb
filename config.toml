@@ -1,0 +1,53 @@
+# Override these settings with your own
+languageCode = "en-us"
+baseURL = "https://aaron0696.github.io/"
+copyright = "© {year}"
+googleAnalytics = ""
+
+# The value "hugo-theme-codex" is only to get the exampleSite
+# to work in this repo. Change to whatever name you gave the theme
+# when you added it. If you followed the README, you should have 
+# added the theme using the name "codex".
+theme = "hugo-theme-codex"
+# REMOVE THIS!
+# This is only to get the exampleSite to work in this repo.
+
+# Optional params
+[params]
+  # Show Github icon linking to github.com/your-github-handle
+  # github = "Aaron0696" # omit @
+  author = "Aaron0696"
+  
+
+# This disables Hugo's default syntax highlighting in favor
+# of prismjs. If you wish to use Hugo's default syntax highlighting
+# over prismjs, remove this. You will also need to remove the prismjs
+# vendor script in layouts/blog/single.html.
+[markup]
+  [markup.highlight]
+    codeFences = false
+
+# Controls the navigation
+[[menu.main]]
+    identifier = "about"
+    name = " Me"
+    title = " Me"
+    url = "/about"
+[[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    title = "Blog"
+    url = "/blog"
+[[menu.main]]
+    identifier = "proj"
+    name = "Projects"
+    title = "Projects"
+    url = "/projects"
+[[menu.main]]
+    identifier = "linkedin"
+    name = "LinkedIn"
+    title = "LinkedIn"
+    url = "https://www.linkedin.com/in/aaron-lim-b30898135/"
+
+[permalinks]
+    post = "/:slug/"
