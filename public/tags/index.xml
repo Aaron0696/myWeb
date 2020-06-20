@@ -2,22 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>https://aaron0696.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://aaron0696.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>CDP</title>
+      <link>/tags/cdp/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cdp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Concurrent</title>
+      <link>/tags/concurrent/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/concurrent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Degree</title>
+      <link>/tags/degree/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/degree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NUS</title>
+      <link>/tags/nus/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Program</title>
+      <link>/tags/program/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/program/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Psychology</title>
+      <link>/tags/psychology/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/psychology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>blog-admin</title>
-      <link>https://aaron0696.github.io/tags/blog-admin/</link>
+      <link>/tags/blog-admin/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://aaron0696.github.io/tags/blog-admin/</guid>
+      <guid>/tags/blog-admin/</guid>
       <description></description>
     </item>
     

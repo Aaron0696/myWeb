@@ -2,22 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on </title>
-    <link>https://aaron0696.github.io/blog/</link>
+    <link>/blog/</link>
     <description>Recent content in Blogs on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Fri, 19 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://aaron0696.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>NUS Psychology Concurrent Degree Program. Should I Apply?</title>
+      <link>/blog/should-i-apply-for-the-nus-psychology-concurrent-degree-program/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/should-i-apply-for-the-nus-psychology-concurrent-degree-program/</guid>
+      <description>Every year, the department of Psychology in NUS sends out little postcards to the second-year undergraduates inviting them to apply for the Concurrent Degree Program (CDP). More often than not, these postcards are met with confusion over what this program actually is. The department website gives a good introduction to what the program offers. This review aims to complement the website, providing a more student-centric explanation/reflection about the program and the frequently asked questions (from juniors) that are not found on the website.</description>
+    </item>
+    
+    <item>
       <title>The First Post</title>
-      <link>https://aaron0696.github.io/blog/firstpost/</link>
+      <link>/blog/firstpost/</link>
       <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://aaron0696.github.io/blog/firstpost/</guid>
+      <guid>/blog/firstpost/</guid>
       <description>The first post of the blog. I created this website with the intention of using it as a portfolio to link to various projects. But I got sucked into the deep rabbit hole of web designing and blogging that I decided to sacrifice one day to plow through numerous guides and documentation to create this spiffy site which can also blog.
 Below are the key resources that I have consulted.</description>
     </item>
