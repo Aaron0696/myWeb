@@ -24,18 +24,19 @@ keywords:
 stylesheet: post.css
 ---
 
-Every year, the department of Psychology in NUS sends out little postcards to the second-year undergraduates inviting them to apply for the **Concurrent Degree Program (CDP)**. More often than not, these postcards are met with confusion over what this program actually is. The [department website](https://www.fas.nus.edu.sg/psy/prospective/index.html#concurrent) gives a good introduction to what the program offers. This review aims to complement the website, providing a more student-centric explanation/reflection about the program and the frequently asked questions (from juniors) that are not found on the website.
+Every year, the department of Psychology in NUS sends out little postcards to the second-year undergraduates inviting them to apply for the **Concurrent Degree Program (CDP)**. More often than not, these postcards are met with confusion over what this program actually is. The [department website](https://www.fas.nus.edu.sg/psy/prospective/index.html#concurrent) gives a good introduction to what the program offers and this post aims to complement the website. Providing a more student-centric explanation/reflection about the program and the frequently asked questions (from juniors) that are not found on the website.
  
 Firstly, an introduction to the CDP in NUS Psychology. In essence, it condenses the **Bachelor of Social Sciences (Hons)** and **Master of Social Science (Psychology by Research)** into one package. Doing the two degrees separately would require *6* years, *4* for the Bachelor program and *2* for the Masters program. In contrast, the CDP only takes *5* years. Some questions that are frequently asked:
 
 > How does it condense the two programs?
 
-Mainly by increasing the workload for the last *2* years. In the last two years, we had to take on the workload of a Masters student + the coursework requirement of the Bachelor (Hons) program. Luckily we only need to do one thesis for both programs.
+Mainly by increasing the workload for the last *2* years. In the last two years, we had to take on the workload of a Masters student + the coursework requirement of the Bachelor (Hons) program. Luckily we only needed to do one thesis for both programs.
 
 > Sounds great but are there any drawbacks to this program?
 
 Other than the increased workload, here are some of the drawbacks that I am aware of.
 
+* Due to the increased workload, you have less time and resources for your thesis compared to a full-time Masters student.
 * Tuition fees for the last two years are charged according to the Masters program, which is slightly more expensive than the Bachelor program.
 * Additional year of study is an additional year of fees.
 * Opportunity cost, one more year of studying is one less year of working.
@@ -48,7 +49,8 @@ Other than the increased workload, here are some of the drawbacks that I am awar
         * This is important because the Masters degree from the CDP is a **research** degree. And from my own experience talking to seniors and HR, this is not a perfect replacement for specialized degrees such as Clinical or I/O Psychology degrees.
     * If your plan does not require a Masters, but it requires a Phd instead.
         * If you are confident that you can enroll directly into a Phd program after your Bachelors, I would say just skip the Masters and the CDP.
-        * On the other hand, having a Masters (in Research) would benefit your Phd application. So it can increase your odds of getting into the more prestigious programs.
+        * On the other hand, having a Masters (in Research) would benefit your Phd application. So it can increase your odds of getting into the more prestigious programs. 
+            * Your thesis would also have a higher likelihood of being published as you have more time to work on it compared to an undergraduate. This would greatly benefit your Phd application as publications remain the best ticket to Phd programs
     * If your plan does not require a Masters or a Phd.
         * Then nope.
 * But should I get a Masters even if my plan does not require it or I have no plan? I may need it in the future.
@@ -56,7 +58,7 @@ Other than the increased workload, here are some of the drawbacks that I am awar
         
 > Sweet, I want to apply for the CDP! What do I need?
 
-This would be the toughest part (my opinion) of CDP. As per the website, it is recommended to apply by the end of your Year 3, semester 1 if you intend to begin the Masters program in Year 4 Semester 1. But there are quite a few requirements...
+This would be the toughest part (my opinion) of CDP. As per the website, it is recommended to apply by the end of your Year 3, Semester 1 if you intend to begin the Masters program in Year 4 Semester 1. But there are quite a few requirements...
 
 |Requirements|
 |--------|    
