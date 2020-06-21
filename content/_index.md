@@ -1,5 +1,5 @@
 ---
 handle: hugo-theme-codex
-heading: Aaron's Page
-subheading: A Directory of Personal Projects and Ramblings
+heading: Aaron Lim Jin Ming
+subheading: Personal Projects and Ramblings
 ---
