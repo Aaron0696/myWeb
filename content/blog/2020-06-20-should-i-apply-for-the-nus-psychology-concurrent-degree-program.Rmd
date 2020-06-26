@@ -16,6 +16,9 @@ tags:
 description: 'Should I apply for the Psychology Concurrent Degree Program (CDP) offered in the National University of Singapore (NUS)?'
 keywords: 
   - NUS Psychology
+  - Should I Apply
+  - Deciding
+  - Is It Difficult
   - NUS Psychology CDP
   - NUS Psychology Concurrent Degree Program
   - NUS Psychology Concurrent Degree Program Review
