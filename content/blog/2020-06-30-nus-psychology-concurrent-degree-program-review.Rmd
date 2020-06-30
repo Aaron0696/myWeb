@@ -1,0 +1,67 @@
+---
+title: NUS Psychology Concurrent Degree Program Review
+author: Aaron Lim Jin Ming
+date: '2020-06-30'
+slug: nus-psychology-concurrent-degree-program-review
+categories:
+  - NUS
+  - review
+tags:
+  - CDP
+  - Concurrent
+  - Degree
+  - NUS
+  - Program
+  - Psychology
+description: 'A review of my experience with the Concurrent Degree Program in NUS Psychology.'
+keywords: 
+  - NUS Psychology
+  - Should I Apply
+  - Deciding
+  - Is It Difficult
+  - NUS Psychology CDP
+  - NUS Psychology Concurrent Degree Program
+  - NUS Psychology Concurrent Degree Program Review
+  - Apply For NUS Psychology Concurrent Degree Program
+  - NUS Psychology Concurrent Degree Program Application
+stylesheet: post.css
+---
+
+I just recently graduated after ending my last finals in May and will be starting work soon. I decided to take some time to reflect on my experience with the CDP program and share what it was like in CDP Psychology. The program had its ups and downs but overall I would say that it had slightly more ups.
+
+# Year 3 Semester 1/2: Application
+
+I first heard about the program in my Y2S2 and found that I met most of the requirements for the program. At that time I was deeply interested in Decision Neuroscience and was actually going to do my thesis in that domain. However, my supervisor had to leave NUS and I swapped over to Quantitative Psychology, which was another domain that I had interest in at that time.
+
+Thinking back, it might have been a blessing that I swapped over. Because the skills that I gained from Quantitative Psych would come to define me even until now. I was originally intending to do Quantitative Psych in my Year 1 and 2 but was scared by my experience in a calculus class. In hindsight, I should have taken linear algebra instead.
+
+# Year 4 Semester 1 (AY2018/2019):
+
+Officially the start of the CDP and I was taking 4 modules this semester.
+
+* PL4201: Psychometrics 
+* PL5221: General Linear Model (GLM)
+* PL3239: Industrial Organizational Psychology
+* PL6770: Graduate Research Seminar
+
+Overall this semester was pretty hectic, as I was juggling my thesis on top of these modules. At this time I was still very very lost, I could not really understand most of the literature and most of the time I will have to take the information in faith, faith that I will understand these by the time I write my thesis. Luckily I had a supportive supervisor who I could clarify my doubts with, though I try to be independent. There were lots of statistical concepts which were new to me that I had to know quick: multivariate probit distribution, markov chain monte carlo, expectation maximization, full information maximum likelihood... In the end, I managed to lay out the foundations for my thesis and understood the literature somewhat. 
+
+> An analogy for my experience is taking a chinese comprehension exam without knowng how to read most of the chinese words. But I was still able to pass by copy pasting the parts of the passage that appear around the words in the question and adding "yin wei" at the start of my answer. True Story.
+
+The modules themselves were actually pretty manageable compared to trying to decipher latin symbols in journal articles.
+
+Let me also talk a little about PL4201 and PL5221, which does not get as much reviews as they deserve.
+
+## PL4201
+
+For CDP, this is a compulsory module to graduate. Psychometric is one of my favorite modules in the semester along with GLM. I think I was just blown away by the intricacies behind the measurement of psychological constructs and it really brings to light numerous assumptions that we take for granted in Psychology. But overall I would have to say this might be one of the harder modules in NUS Psychology. I took it under the Prof who focused on the mathematical intuitions behind the concepts. There were lots of algebraic manipulation involved but they were nothing too difficult (especially after taking calculus). But I think most students struggled with this module because of the big shift in mindset required for Psychology students. We were too used to 3 years+ of absorbing and parsing text knowledge that most of us were too detached from manipulating equations like this was A-Math or H2 Math. Another point of difficulty was the abstractness of some of the concepts, alot of points were things that are not concrete and hard to fix an image to. These concepts are actually better understood through equations but most of us were not used to parsing equations. For example, appreciating the fact that simply adding more items (irrelevant or not) can inflate coefficient alpha. 
+
+Overall, I enjoyed the module and did pretty well for it but I do hear from some peers that it was a traumatic experience. But even though it was traumatic, they still enjoyed the content and the lectures.
+
+## PL5221
+
+GLM was another compulsory module for CDP students. This was a great module to start to take early because it lays out some really important foundations that were sometimes neglected in PL2132 or PL2132. Half the lectures would be re-teaching existing analysis methods that most of us were already familiar with (ANOVA and linear regression variants) but with more details. We went deeper into the assumptions and diagnostics of these analysis methods. The module was taught in R but we had the choice to do our assignments in SPSS. But it was significantly easier to do it in R. If you were avoiding this module because you don't know R, know that actually most students would not have any experience with R. The Prof would be more than happy to help if you get stuck. Make some friends in this module too, because everyone would likely be as lost as you the first few times certain concepts are introduced. But I find that having friends discussing and clarifying concepts really helps everyone. R would also be a great skill to pick up as many organizations use it to analyze data. Personally, I do know of numerous organizations who are making a push to R due to the large amount of analysis methods available for free.
+
+The greatest pickup for most people would be the refined statistical methods that they could integrate into their thesis/dissertation. Overall, I would say that the module was manageable. The Prof focuses more on conceptual understanding rather than crunching of formulas. I think it was more important to enter with the mindset that this is a **Research Methods** module rather than a **Statistical** module.
+
+Will continue my reflection/review of CDP another time as this is getting lengthy.
