@@ -1,0 +1,47 @@
+---
+title: Most Popular Modules in NUS Psychology
+author: Aaron Lim Jin Ming
+date: '2020-07-04'
+slug: most-popular-modules-in-nus-psychology
+categories:
+  - NUS
+  - Personal
+tags:
+  - NUS
+  - Psychology
+  - PersonalProjects
+description: 'A post about the most popular modules from NUS psychology, based on one of my personal projects.'
+keywords: 
+  - NUS
+  - Psychology
+  - University
+  - Singapore
+  - Popular
+  - CORS
+  - Bidding
+  - Module
+  - Review
+stylesheet: post.css
+---
+
+I embarked on an interesting project during the circuit-breaker in Singapore where I used past bidding statistics from [NUSMods](https://nusmods.com/api/) to find the most popular Honors, Lab and Elective modules in NUS Psychology. For those who are currently in NUS or kept up with the news, you may have heard that the bidding system (CORS) was recently scrapped and replaced by a balloting system. Even though bidding is no longer here, I believe that the information of the popularity of modules is still relevant for balloting, which requires students to rank their preferences.
+
+The project can be found at [here](https://aaron0696.github.io/psychmods/). The entire project is quite lengthy as it was written to flesh out the process behind the project, which is frankly not going to interest most readers. Thus, I made a little infographic using [canva](https://www.canva.com/), which presents the most important results from the project.
+
+![](/blog/Most_Popular_Modules_In_NUS_Psychology.png)
+
+Another cool thing I made was some GIFs that shows the change in cumulative mean of Lowest Successful Bid across the semesters. More information about them can be found in the main post of the project. 
+
+## Honour Modules (Only the "Popular" modules)
+
+![](/blog/honourgif.gif)
+
+## Lab Modules
+
+![](/blog/labgif.gif)
+
+## Electives
+
+![](/blog/elegif.gif)
+
+Consider this post an advertisement for the project :).

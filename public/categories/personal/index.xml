@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on </title>
+    <link>/categories/personal/</link>
+    <description>Recent content in Personal on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© {year}</copyright>
+    <lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Most Popular Modules in NUS Psychology</title>
+      <link>/blog/most-popular-modules-in-nus-psychology/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/most-popular-modules-in-nus-psychology/</guid>
+      <description>I embarked on an interesting project during the circuit-breaker in Singapore where I used past bidding statistics from NUSMods to find the most popular Honors, Lab and Elective modules in NUS Psychology. For those who are currently in NUS or kept up with the news, you may have heard that the bidding system (CORS) was recently scrapped and replaced by a balloting system. Even though bidding is no longer here, I believe that the information of the popularity of modules is still relevant for balloting, which requires students to rank their preferences.</description>
+    </item>
+    
+  </channel>
+</rss>
