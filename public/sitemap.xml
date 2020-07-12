@@ -4,31 +4,71 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/most-popular-modules-in-nus-psychology/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <loc>/tags/cdp/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/concurrent/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/degree/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/nus/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/nus/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/nus-psychology-concurrent-degree-program-review-part-2/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/program/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/psychology/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/review/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/most-popular-modules-in-nus-psychology/</loc>
     <lastmod>2020-07-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,42 +83,7 @@
   </url>
   
   <url>
-    <loc>/tags/psychology/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/cdp/</loc>
-    <lastmod>2020-06-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/concurrent/</loc>
-    <lastmod>2020-06-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/degree/</loc>
-    <lastmod>2020-06-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/blog/nus-psychology-concurrent-degree-program-review/</loc>
-    <lastmod>2020-06-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/program/</loc>
-    <lastmod>2020-06-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/review/</loc>
     <lastmod>2020-06-30T00:00:00+00:00</lastmod>
   </url>
   
