@@ -7,7 +7,7 @@ I have a general interest in using data and statistical methods to derive insigh
 I studied Psychology at the National University of Singapore (NUS) under the Concurrent Degree Program. My thesis focused on the performance of different missing data techniques in joint ordinal-continuous measurement models.  
 
 *M.Soc.Sci.* (Psychology by Research), 2019 - 2020  
-*B.Soc.Sci.* (Honours), 2015 - 2020
+*B.Soc.Sci.* (Honours, Highest Distinction), 2015 - 2020
 
 ## Career
 
