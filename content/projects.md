@@ -1,3 +1,7 @@
+---
+title: Personal Projects
+---
+
 # My Personal Projects
 
 > In my spare time.

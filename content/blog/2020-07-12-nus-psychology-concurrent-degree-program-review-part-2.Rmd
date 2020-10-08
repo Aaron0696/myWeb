@@ -15,7 +15,7 @@ tags:
   - Psychology
 description: 'Part two of my review of my experience with the Concurrent Degree Program in NUS Psychology.'
 keywords: 
-  - NUS Psychology
+  - NUS Psychology 
   - Should I Apply
   - Deciding
   - Is It Difficult
@@ -78,3 +78,5 @@ If you can, definitely take all three graduate-level research modules, even if y
 At this point, I was busy figuring out how to use Linux and utilize the school's high performance computing system. My thesis was a little different from most others as I did not collect data. But my more normal peers were also in the process of designing and implementing their studies this semester. Those who were quicker were already piloting their data but most of us were still coding and designing our experiments/simulations. Literature review was still ongoing this semester, instead of focusing on crafting our research questions, we were focusing on how previous literature have studied whatever topic we were researching. Personally, this was the semester when I started feeling nervous and unsure of myself. Was I really going to produce something that can build upon what many years of research has already done? And to do it with at least the same quality as researchers who have been in the field for decades? But I look around and see that my peers were in the same boat, and many other graduates have also survived this process. So I just shrugged my shoulders and went back to figuring out how Linux works. 
 
 This was the semester where I racked my brain the hardest for the thesis. This phase is less mentally demanding (but more physically demanding), I was busy hauling my portable hard disk around and transferring data, juggling between different simulations and troubleshooting the system. It was also the most stressful phase as screwing up in the design of your experiment/simulation/data collection will severely compromise the thesis, and there is little time to redo this phase if the mistake is found later.
+
+> Read part 3 [here](https://aaron0696.github.io/blog/nus-psychology-concurrent-degree-program-review-part-3/)!

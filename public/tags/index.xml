@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 12 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>CDP</title>
       <link>/tags/cdp/</link>
-      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/cdp/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Concurrent</title>
       <link>/tags/concurrent/</link>
-      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/concurrent/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Degree</title>
       <link>/tags/degree/</link>
-      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/degree/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>NUS</title>
       <link>/tags/nus/</link>
-      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/nus/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>Program</title>
       <link>/tags/program/</link>
-      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/program/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>Psychology</title>
       <link>/tags/psychology/</link>
-      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/psychology/</guid>
       <description></description>

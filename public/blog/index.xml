@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 12 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NUS Psychology Concurrent Degree Program Review: Part 3</title>
+      <link>/blog/nus-psychology-concurrent-degree-program-review-part-3/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/nus-psychology-concurrent-degree-program-review-part-3/</guid>
+      <description>Read part 2 here!
+Year 5: Thesis Submission Time!Year 5 was the so-called final lap as a CDP student. Don’t be fooled into thinking that you have 2 years to complete your thesis, the thesis is due on the fourth week of your final semester so it was more like 1.5 years. At this point I was already reviewing my results and writing the manuscript. There were a few hiccups here and there, one particular panic point was when I found mistakes in some of my code, which resulted in me running some rather last-minute simulations.</description>
+    </item>
     
     <item>
       <title>NUS Psychology Concurrent Degree Program Review: Part 2</title>

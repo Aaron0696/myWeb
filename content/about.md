@@ -1,3 +1,7 @@
+---
+title: Aaron Lim Jin Ming
+---
+
 # About Me
 
 I have a general interest in using data and statistical methods to derive insights that can be acted upon and applied to the real-world. Domains which I feel invested in are *Psychology*, *Psychometrics* and *Data Science/Analytics*.

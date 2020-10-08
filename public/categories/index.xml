@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Sun, 12 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>NUS</title>
       <link>/categories/nus/</link>
-      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/nus/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>review</title>
       <link>/categories/review/</link>
-      <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/review/</guid>
       <description></description>
