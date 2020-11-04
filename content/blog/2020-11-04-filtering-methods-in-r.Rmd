@@ -1,0 +1,110 @@
+---
+title: Filtering Methods In R
+author: Aaron Lim Jin Ming
+date: '2020-11-04'
+slug: filtering-methods-in-r
+categories:
+  - R
+tags:
+  - R
+description: 'Evaluating the different methods of filtering or subsetting data in R.'
+keywords:
+  - R
+  - Filter
+  - Subset
+  - Select
+stylesheet: post.css
+---
+
+One of the *greatest* and *worst* things about using R is that there are so many different methods to tackle the same problem. Every time I become aware of an alternative method, I start to think thoughts such as "Is this better than my method?", "Does this always give the same results as my current method?".
+
+Filtering is one scenario when these thoughts surface, there are multiple ways to filter data but what are the actual differences between them? I wrote this post to formally pen down the differences and to resolve these my doubts.
+
+# Filtering
+
+Filtering is the act of choosing a subset of your current data that fits some criteria. In R, this is the act of selecting/discarding certain rows from a dataframe. As far as I am aware, there are three popular methods to filter data.
+
+To illustrate the differences between these three methods, lets create a small dataframe to illustrate their differences.
+
+```{r}
+mydata <- data.frame(x1 = 1:10,
+                     x2 = c(1:4,NA,NA,7:10),
+                     row.names = NULL)
+mydata
+```
+
+# Subset Operator `[]`
+
+The most basic way to filter would probably be using the subset operator `[]` in R.
+
+```{r}
+# give me the rows where x1 is more than 5
+mydata[mydata$x1 > 5,]
+```
+
+Here is what happens when we use the subset operator to filter on a column with `NA` variables.
+
+```{r}
+# give me the data where x2 is less than 3
+mydata[mydata$x2 < 3,]
+```
+
+Unexpected things happen with the subset operator. It seems like the `NA` values get caught in the filter and are returned even though `NA` is not less than 3. The reason for this behavior is because evaluating `NA` in any logical statement (except `is.na()`) will produce `NA` as an output.
+
+```{r}
+NA > 3
+NA == "NA"
+NA == NA
+```
+
+While this may be the quickest way to filter, it breaks down when there are missing values in the filtering variable.
+
+To prevent this behavior, we need additional conditional statements. But this is a hassle to write and read.
+
+```{r}
+# give me the data where x2 is less than 3
+mydata[mydata$x2 < 3 & !is.na(mydata$x2),]
+```
+
+# `subset()`
+
+The `subset()` function is the second way to filter. It is part of base R so I prefer it over the tidyverse `filter()` as I tend to find myself in work where I may not have the luxury to install every package I need. 
+
+```{r}
+# give me the rows where x1 is more than 5
+subset(mydata,
+       mydata$x1 > 5)
+```
+
+Lets see how it handles the missing values in x2 when we filter on x2.
+
+```{r}
+# give me the data where x2 is less than 3
+subset(mydata,
+       mydata$x2 < 3)
+```
+
+This time it seems to work! `subset()` behaves as expected.
+
+# `filter()` from *dplyr*
+
+Up last is `filter()` from `dplyr`. I personally use this very infrequently because I picked up R sticking to base R. But I do use the other `tidyverse` functions quite frequently as some of them are indeed very powerful. I would use `filter()` when I find myself inside a pipe (`%>%`) chain and I don't wish to awkwardly exit the pipe to `subset()`, just to pipe the data in again.
+
+```{r}
+library(dplyr)
+# give me the rows where x1 is more than 5
+mydata %>% filter(x1 > 5)
+```
+
+Lets see how it handles the missing values in x2 when we filter on x2.
+
+```{r}
+# give me the data where x2 is less than 3
+mydata %>% filter(x2 < 3)
+```
+
+It seems like filter works just as well!
+
+# Summary
+
+Avoid using the subset operators `[]` to filter unless you are sure that the filtering variable has no missing values `NA`.`subset()` and dplyr's `filter()` are preferred as they exclude missing values. Choosing between the two would be personal preference or depend on the context.

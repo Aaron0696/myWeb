@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Filtering Methods In R</title>
+      <link>/blog/filtering-methods-in-r/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/filtering-methods-in-r/</guid>
+      <description>One of the greatest and worst things about using R is that there are so many different methods to tackle the same problem. Every time I become aware of an alternative method, I start to think thoughts such as “Is this better than my method?”, “Does this always give the same results as my current method?”.
+Filtering is one scenario when these thoughts surface, there are multiple ways to filter data but what are the actual differences between them?</description>
+    </item>
     
     <item>
       <title>NUS Psychology Concurrent Degree Program Review: Part 3</title>

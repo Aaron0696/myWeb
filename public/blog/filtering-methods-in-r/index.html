@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169367743-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169367743-1');
+</script>
+
+  <title>Filtering Methods In R</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="Evaluating the different methods of filtering or subsetting data in R.">
+  <meta name="keywords" content="R, Filter, Subset, Select">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="8cyiY374WL2LGr87fBghcdJCRx6BaPNBvLjeZlk6tyc" />
+
+  
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+  
+<link rel="stylesheet" href="/css/post.css" /> 
+
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/"
+      },
+      "articleSection" : "blog",
+      "name" : "Filtering Methods In R",
+      "headline" : "Filtering Methods In R",
+      "description" : "Evaluating the different methods of filtering or subsetting data in R.",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2020",
+      "datePublished": "2020-11-04 00:00:00 \u002b0000 UTC",
+      "dateModified" : "2020-11-04 00:00:00 \u002b0000 UTC",
+      "url" : "\/blog\/filtering-methods-in-r\/",
+      "wordCount" : "825",
+      "keywords" : ["R", "Filter", "Subset", "Select", "Blog"]
+    }
+  
+  </script>
+
+</head>
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" role="navigation">
+  <ul class="nav__list">
+     
+    
+      <li>
+        <a  href="/about"> Me</a>
+      </li>
+    
+      <li>
+        <a  href="/blog">Blog</a>
+      </li>
+    
+      <li>
+        <a  href="https://www.linkedin.com/in/aaron-lim-b30898135/">LinkedIn</a>
+      </li>
+    
+      <li>
+        <a  href="/projects">Projects</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+<div class="post">
+  <header class="post__header">
+    <h1 class="post__title">Filtering Methods In R</h1>
+    <time datetime="2020-11-04 00:00:00 &#43;0000 UTC" class="post__date"
+      >Nov 4 2020</time
+    >
+  </header>
+  <article class="post__content">
+    
+
+
+
+<p>One of the <em>greatest</em> and <em>worst</em> things about using R is that there are so many different methods to tackle the same problem. Every time I become aware of an alternative method, I start to think thoughts such as “Is this better than my method?”, “Does this always give the same results as my current method?”.</p>
+<p>Filtering is one scenario when these thoughts surface, there are multiple ways to filter data but what are the actual differences between them? I wrote this post to formally pen down the differences and to resolve these my doubts.</p>
+<div id="filtering" class="section level1">
+<h1>Filtering</h1>
+<p>Filtering is the act of choosing a subset of your current data that fits some criteria. In R, this is the act of selecting/discarding certain rows from a dataframe. As far as I am aware, there are three popular methods to filter data.</p>
+<p>To illustrate the differences between these three methods, lets create a small dataframe to illustrate their differences.</p>
+<pre class="r"><code>mydata &lt;- data.frame(x1 = 1:10,
+                     x2 = c(1:4,NA,NA,7:10),
+                     row.names = NULL)
+mydata</code></pre>
+<pre><code>##    x1 x2
+## 1   1  1
+## 2   2  2
+## 3   3  3
+## 4   4  4
+## 5   5 NA
+## 6   6 NA
+## 7   7  7
+## 8   8  8
+## 9   9  9
+## 10 10 10</code></pre>
+</div>
+<div id="subset-operator" class="section level1">
+<h1>Subset Operator <code>[]</code></h1>
+<p>The most basic way to filter would probably be using the subset operator <code>[]</code> in R.</p>
+<pre class="r"><code># give me the rows where x1 is more than 5
+mydata[mydata$x1 &gt; 5,]</code></pre>
+<pre><code>##    x1 x2
+## 6   6 NA
+## 7   7  7
+## 8   8  8
+## 9   9  9
+## 10 10 10</code></pre>
+<p>Here is what happens when we use the subset operator to filter on a column with <code>NA</code> variables.</p>
+<pre class="r"><code># give me the data where x2 is less than 3
+mydata[mydata$x2 &lt; 3,]</code></pre>
+<pre><code>##      x1 x2
+## 1     1  1
+## 2     2  2
+## NA   NA NA
+## NA.1 NA NA</code></pre>
+<p>Unexpected things happen with the subset operator. It seems like the <code>NA</code> values get caught in the filter and are returned even though <code>NA</code> is not less than 3. The reason for this behavior is because evaluating <code>NA</code> in any logical statement (except <code>is.na()</code>) will produce <code>NA</code> as an output.</p>
+<pre class="r"><code>NA &gt; 3</code></pre>
+<pre><code>## [1] NA</code></pre>
+<pre class="r"><code>NA == &quot;NA&quot;</code></pre>
+<pre><code>## [1] NA</code></pre>
+<pre class="r"><code>NA == NA</code></pre>
+<pre><code>## [1] NA</code></pre>
+<p>While this may be the quickest way to filter, it breaks down when there are missing values in the filtering variable.</p>
+<p>To prevent this behavior, we need additional conditional statements. But this is a hassle to write and read.</p>
+<pre class="r"><code># give me the data where x2 is less than 3
+mydata[mydata$x2 &lt; 3 &amp; !is.na(mydata$x2),]</code></pre>
+<pre><code>##   x1 x2
+## 1  1  1
+## 2  2  2</code></pre>
+</div>
+<div id="subset" class="section level1">
+<h1><code>subset()</code></h1>
+<p>The <code>subset()</code> function is the second way to filter. It is part of base R so I prefer it over the tidyverse <code>filter()</code> as I tend to find myself in work where I may not have the luxury to install every package I need.</p>
+<pre class="r"><code># give me the rows where x1 is more than 5
+subset(mydata,
+       mydata$x1 &gt; 5)</code></pre>
+<pre><code>##    x1 x2
+## 6   6 NA
+## 7   7  7
+## 8   8  8
+## 9   9  9
+## 10 10 10</code></pre>
+<p>Lets see how it handles the missing values in x2 when we filter on x2.</p>
+<pre class="r"><code># give me the data where x2 is less than 3
+subset(mydata,
+       mydata$x2 &lt; 3)</code></pre>
+<pre><code>##   x1 x2
+## 1  1  1
+## 2  2  2</code></pre>
+<p>This time it seems to work! <code>subset()</code> behaves as expected.</p>
+</div>
+<div id="filter-from-dplyr" class="section level1">
+<h1><code>filter()</code> from <em>dplyr</em></h1>
+<p>Up last is <code>filter()</code> from <code>dplyr</code>. I personally use this very infrequently because I picked up R sticking to base R. But I do use the other <code>tidyverse</code> functions quite frequently as some of them are indeed very powerful. I would use <code>filter()</code> when I find myself inside a pipe (<code>%&gt;%</code>) chain and I don’t wish to awkwardly exit the pipe to <code>subset()</code>, just to pipe the data in again.</p>
+<pre class="r"><code>library(dplyr)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre class="r"><code># give me the rows where x1 is more than 5
+mydata %&gt;% filter(x1 &gt; 5)</code></pre>
+<pre><code>##   x1 x2
+## 1  6 NA
+## 2  7  7
+## 3  8  8
+## 4  9  9
+## 5 10 10</code></pre>
+<p>Lets see how it handles the missing values in x2 when we filter on x2.</p>
+<pre class="r"><code># give me the data where x2 is less than 3
+mydata %&gt;% filter(x2 &lt; 3)</code></pre>
+<pre><code>##   x1 x2
+## 1  1  1
+## 2  2  2</code></pre>
+<p>It seems like filter works just as well!</p>
+</div>
+<div id="summary" class="section level1">
+<h1>Summary</h1>
+<p>Avoid using the subset operators <code>[]</code> to filter unless you are sure that the filtering variable has no missing values <code>NA</code>.<code>subset()</code> and dplyr’s <code>filter()</code> are preferred as they exclude missing values. Choosing between the two would be personal preference or depend on the context.</p>
+</div>
+
+
+    
+  </article>
+  
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="/tags/r/">r</a>
+    </li></ul>
+
+ <div class="pagination">
+  
+    <a class="pagination__item" href="/blog/nus-psychology-concurrent-degree-program-review-part-3/">
+        <span class="pagination__label">Previous Post</span>
+        <span class="pagination__title">NUS Psychology Concurrent Degree Program Review: Part 3</span>
+    </a>
+  
+
+  
+</div>
+
+</div>
+
+  </main>
+
+  
+<footer>
+  <div class="social-icons">
+  
+  
+</div>
+
+  <p>© 2020</p>
+</footer>
+
+
+  <script src="/js/index.js"></script>
+  
+<script src="https://unpkg.com/prismjs@^1.2"></script>
+
+</body>
+
+</html>
