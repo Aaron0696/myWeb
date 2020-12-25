@@ -30,7 +30,7 @@ The project can be found at [here](https://aaron0696.github.io/psychmods/). The 
 
 ![](/blog/Most_Popular_Modules_In_NUS_Psychology.png)
 
-Another cool thing I made was some GIFs that shows the change in cumulative mean of Lowest Successful Bid across the semesters. More information about them can be found in the main post of the project. 
+Another cool thing I made was some GIFs that illustrate the changes in cumulative mean of Lowest Successful Bids across the semesters. More information about them can be found in the main post of the project. 
 
 ## Honour Modules (Only the "Popular" modules)
 
