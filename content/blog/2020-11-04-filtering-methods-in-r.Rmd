@@ -14,11 +14,12 @@ keywords:
   - Subset
   - Select
 stylesheet: post.css
+highlight: haddock
 ---
 
 One of the *greatest* and *worst* things about using R is that there are so many different methods to tackle the same problem. Every time I become aware of an alternative method, I start to think thoughts such as "Is this better than my method?", "Does this always give the same results as my current method?".
 
-Filtering is one scenario when these thoughts surface, there are multiple ways to filter data but what are the actual differences between them? I wrote this post to formally pen down the differences and to resolve these my doubts.
+Filtering is one scenario when these thoughts surface, there are multiple ways to filter data but what are the actual differences between them? I wrote this post to formally pen down the differences and to resolve these doubts.
 
 # Filtering
 
