@@ -17,7 +17,7 @@ I studied Psychology at the National University of Singapore (NUS) under the Con
 
 Visit my **LinkedIn** through the sidebar for more details on my work at each position.
 
-**National University of Singapore (Jul 2019 – Current)**  
+**National University of Singapore (Jul 2020 – Current)**  
 * Social Service Research Centre, Enhancing Positive Outcomes in Youth and the Community (EPYC)  
 * Research Associate (Full-Time)  
 
