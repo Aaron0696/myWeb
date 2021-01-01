@@ -8,7 +8,7 @@ title: Personal Projects
 
 ### aaRon
 
-An R package of functions and templates that I use in my daily work. Can be used by anyone.
+An R package containing functions and templates that I use in my daily work. Can be used by anyone.
 
 Introduction to the package and functions are available at https://aaron0696.github.io/aaRon/.
 
