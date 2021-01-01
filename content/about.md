@@ -17,7 +17,10 @@ I studied Psychology at the National University of Singapore (NUS) under the Con
 
 Visit my **LinkedIn** through the sidebar for more details on my work at each position.
 
-From July 2020, I will be starting work as a Research Associate in NUS, under the Social Service Research Center.
+**National University of Singapore (Jul 2019 – Current)**  
+* Social Service Research Centre, Enhancing Positive Outcomes in Youth and the Community (EPYC)  
+* Research Associate (Full-Time)  
+
 
 **Civil Service College (Sep 2019 – Mar 2020)**  
 * Institute of Leadership and Organizational Development (ILOD)  

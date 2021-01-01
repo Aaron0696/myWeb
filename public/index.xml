@@ -98,12 +98,13 @@ Education I studied Psychology at the National University of Singapore (NUS) und
       
       <guid>/projects/</guid>
       <description>My Personal Projects  In my spare time.
- The Most And Least Popular Psychology Modules In NUS Using the decade&amp;rsquo;s past bidding statistics to determine the popularity of Psychology modules in NUS.
+ aaRon An R package of functions and templates that I use in my daily work. Can be used by anyone.
+Introduction to the package and functions are available at https://aaron0696.github.io/aaRon/.
+Programs: R
+The Most And Least Popular Psychology Modules In NUS Using the decade&amp;rsquo;s past bidding statistics to determine the popularity of Psychology modules in NUS.
 https://aaron0696.github.io/psychmods/
 Programs: R
-Power Simulator For Between-Subject ANOVAs Implementing a simulation approach to calculating power for Between-Subject ANOVAs with a user-friendly GUI.
-https://aaron0696.github.io/BtwnANOVAPowSim/
-Programs: R, RShiny</description>
+Power Simulator For Between-Subject ANOVAs Implementing a simulation approach to calculating power for Between-Subject ANOVAs with a user-friendly GUI.</description>
     </item>
     
   </channel>

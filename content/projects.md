@@ -6,6 +6,14 @@ title: Personal Projects
 
 > In my spare time.
 
+### aaRon
+
+An R package of functions and templates that I use in my daily work. Can be used by anyone.
+
+Introduction to the package and functions are available at https://aaron0696.github.io/aaRon/.
+
+Programs: `R`
+
 ### The Most And Least Popular Psychology Modules In NUS
 
 Using the decade's past bidding statistics to determine the popularity of Psychology modules in NUS.  
