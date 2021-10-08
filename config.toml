@@ -49,6 +49,11 @@ theme = "hugo-theme-codex"
     name = "LinkedIn"
     title = "LinkedIn"
     url = "https://www.linkedin.com/in/aaron-lim-b30898135/"
+[[menu.main]]
+    identifier = "disclaimer"
+    name = "Disclaimer"
+    title = "Disclaimer"
+    url = "/disclaimer"
 
 [permalinks]
     post = "/:slug/"

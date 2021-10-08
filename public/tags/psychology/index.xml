@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© {year}</copyright>
-    <lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/psychology/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2021, Publication &amp; Life</title>
+      <link>/blog/2021-publication-life/</link>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2021-publication-life/</guid>
+      <description>I Am A Published Author?It has happened! My thesis has been published in Behavior Research Methods!
+https://doi.org/10.3758/s13428-021-01582-w
+I began writing my thesis for the Concurrent Degree Program back in 2019. It was pretty surreal when I think back to 2019, the thesis started out as a blank word document with barely any words. Back then, I was struggling to piece together coherent sentences to form the introduction as I had to parse through the highly technical literature with little knowledge of the field.</description>
+    </item>
     
     <item>
       <title>NUS Psychology Concurrent Degree Program Review: Part 3</title>

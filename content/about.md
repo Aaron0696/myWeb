@@ -17,7 +17,12 @@ I studied Psychology at the National University of Singapore (NUS) under the Con
 
 Visit my **LinkedIn** through the sidebar for more details on my work at each position.
 
-**National University of Singapore (Jul 2020 – Current)**  
+
+**Grab (Apr 2021 - Current)**
+* Regional Marketplace, Economics Team
+* Behavioral Scientist (Full-Time)
+
+**National University of Singapore (Jul 2020 – Apr 2021)**  
 * Social Service Research Centre, Enhancing Positive Outcomes in Youth and the Community (EPYC)  
 * Research Associate (Full-Time)  
 
@@ -37,3 +42,7 @@ Visit my **LinkedIn** through the sidebar for more details on my work at each po
 **Ministry of Home Affairs (May 2017 – Aug 2017)**  
 * Behavioural Insights Unit 
 * Researcher (Internship)
+
+## Publication
+
+**Lim, A.JM.**, Cheung, M.WL. Evaluating FIML and multiple imputation in joint ordinal-continuous measurements models with missing data. Behav Res (2021). https://doi.org/10.3758/s13428-021-01582-w
